@@ -138,7 +138,8 @@
 .scholarship-card{display:flex;align-items:center;gap:16px;margin-top:18px;padding:22px 32px;background:linear-gradient(125deg,#141c29,#0e1118)}
 .scholarship-icon{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;color:#b1c7e8;background:rgba(146,181,235,.06);border:1px solid rgba(146,181,235,.16);border-radius:12px}
 .scholarship-copy{min-width:0}
-.scholarship-copy h3{font-size:1rem;line-height:1.4;letter-spacing:-.015em;margin:0 0 4px}
-.scholarship-copy p{font-size:.8125rem;line-height:1.5;color:var(--muted);margin:0}
+.scholarship-copy h3{font-size:1rem;line-height:1.4;letter-spacing:-.015em;margin:0}
 @media(max-width:800px){.scholarship-card{padding-inline:25px}}
-@media(max-width:600px){.scholarship-card{padding-inline:28px}}
+@media(max-width:800px) and (min-width:601px){.scholarship-card{gap:12px;padding-inline:20px}.scholarship-icon{flex-basis:30px;width:30px;height:30px}.scholarship-copy h3{font-size:.75rem}}
+@media(max-width:600px){.scholarship-card{padding:20px;gap:12px}.scholarship-icon{flex-basis:34px;width:34px;height:34px}.scholarship-copy h3{font-size:.875rem}}
+@media(max-width:360px){.scholarship-card{padding-inline:16px;gap:10px}.scholarship-icon{flex-basis:30px;width:30px;height:30px}.scholarship-copy h3{font-size:.75rem}}
