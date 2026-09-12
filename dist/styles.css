@@ -133,3 +133,8 @@
   .media-formats{margin-top:34px}
   .media-question{font-size:1.4rem}
 }
+
+.education-column{min-width:0}
+.earlier-education{margin-top:22px;padding:0 2px}
+.earlier-education .eyebrow{font-size:.6875rem;margin:0 0 8px}
+.earlier-education p:last-child{font-size:.875rem;line-height:1.6;color:var(--muted);margin:0}
