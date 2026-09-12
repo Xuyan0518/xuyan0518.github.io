@@ -1,0 +1,11 @@
+{
+  "name": "xuyan-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zhou Xuyan's personal portfolio — a dependency-free static website for GitHub Pages",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check dist/script.js && node scripts/check.mjs"
+  }
+}
