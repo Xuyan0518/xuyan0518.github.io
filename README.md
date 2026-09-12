@@ -2,7 +2,7 @@
 
 A custom dark portfolio with cursor-following glow, scroll-activated card lighting, gentle section reveals, expandable experience entries, project detail dialogs, and a coastal portrait. Content is based on the supplied résumé and the subsequent Singtel role and project notes.
 
-The current full-time role is **Management Associate · Business Manager at Singtel, July 2026–present**, working at Group level and supporting the Group CIO/CDO and Group CTO. Singtel is the employer; Group level describes the role's remit. Earlier work roles are internships. Singtel AI Exchange and SRB / ARB Governance lead the selected work, describing strategic planning and enablement contributions without claiming unreported launches or adoption outcomes. The downloadable PDF is the original résumé and has not yet been updated to include the current full-time role.
+The current full-time role is **Management Associate · Business Manager at Singtel, July 2026–present**, working at Group level and supporting the Group CIO/CDO and Group CTO. Singtel is the employer; Group level describes the role's remit. Earlier work roles are internships. Professional work is described through general contribution areas: enterprise AI strategy and technology governance. Keep internal initiative names, review-board names, organisational scope and internal process details out of public content and source files. Do not claim unreported launches or adoption outcomes. The downloadable PDF is the original résumé and has not yet been updated to include the current full-time role.
 
 The site is plain HTML, CSS, and JavaScript. There are **no package dependencies, build step, paid template, API keys, or backend**. Everything in `dist/` is the finished website.
 
@@ -14,7 +14,7 @@ With Node.js installed, run `npm start` from this folder, then open **http://127
 
 The hero uses `dist/assets/portrait-edited.png`, a 1086 × 1448 crop of the supplied coastal photo with a subtle lighting adjustment. The original supplied photo is unchanged.
 
-To replace it, save a new image in `dist/assets/`, then update the portrait image's `src`, `width`, `height`, and `alt` attributes in `dist/index.html`. The frame follows the image's natural proportions, with the nameplate below it, so the body remains visible on desktop and mobile. The photo loads directly in HTML and does not require JavaScript.
+To replace it, save a new image in `dist/assets/`, then update the portrait image's `src`, `width`, `height`, and `alt` attributes in `dist/index.html`. The frame follows the image's natural proportions so the body remains visible on desktop and mobile. The photo loads directly in HTML and does not require JavaScript.
 
 ## Edit your content
 

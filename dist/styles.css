@@ -28,13 +28,13 @@
 .strategy-project .project-info{flex:1}
 .strategy-project .project-visual{min-height:354px}
 .strategy-project .visual-topline{gap:12px;line-height:1.6}
-.exchange-visual{background:radial-gradient(ellipse at 25% 30%,#253852,transparent 80%),#101722}
-.exchange-heading{display:flex;gap:18px;align-items:center;margin:24px 0;color:#94a9c8;font-size:1.5rem;line-height:1.3;letter-spacing:-.035em}
-.exchange-heading strong,.governance-heading strong{color:#d0e2ff;font-weight:500}
-.exchange-mark{display:grid;place-content:center;flex-shrink:0;width:56px;height:56px;border:1px solid #496389;border-radius:16px;background:#253751;font-size:2rem;color:#b8d4ff;box-shadow:0 0 32px #89b6ff12}
-.lifecycle-diagram{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
-.lifecycle-diagram>span{display:flex;justify-content:space-between;gap:5px;align-items:center;padding:12px 10px;border:1px solid #344966;border-radius:9px;font-size:.8125rem;color:#c1d1e9;background:#1b2a40a3}
-.lifecycle-diagram i{font-style:normal;color:#6c91c7}
+.ai-strategy-visual{background:radial-gradient(ellipse at 25% 30%,#253852,transparent 80%),#101722}
+.ai-strategy-heading{display:flex;gap:18px;align-items:center;margin:24px 0;color:#94a9c8;font-size:1.5rem;line-height:1.3;letter-spacing:-.035em}
+.ai-strategy-heading strong,.governance-heading strong{color:#d0e2ff;font-weight:500}
+.ai-strategy-mark{display:grid;place-content:center;flex-shrink:0;width:56px;height:56px;border:1px solid #496389;border-radius:16px;background:#253751;font-size:2rem;color:#b8d4ff;box-shadow:0 0 32px #89b6ff12}
+.strategy-themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.strategy-themes>span{display:flex;justify-content:space-between;gap:5px;align-items:center;padding:12px 10px;border:1px solid #344966;border-radius:9px;font-size:.8125rem;color:#c1d1e9;background:#1b2a40a3}
+.strategy-themes i{font-style:normal;color:#6c91c7}
 .visual-caption{font-size:.75rem!important;line-height:1.7;color:#8d9fb9;margin:18px 0 0}
 .governance-visual{background:radial-gradient(ellipse at 75% 30%,#27263e,transparent 85%),#14151f}
 .governance-heading{margin:24px 0 17px;font-size:1.5rem;letter-spacing:-.035em;line-height:1.3;color:#a09bb9}
@@ -42,10 +42,10 @@
 .governance-path{display:grid;gap:8px}
 .governance-path>span{display:flex;gap:12px;align-items:center;color:#c4bedc;font-size:.8125rem;line-height:1.5}
 .governance-path i{font-style:normal;font-size:.75rem;display:grid;place-content:center;width:26px;height:26px;flex-shrink:0;border:1px solid #4a4665;background:#242237;border-radius:7px;color:#a7a0c9}
-@media(max-width:800px){.strategy-project .project-visual{padding:24px 20px}.lifecycle-diagram{grid-template-columns:repeat(2,minmax(0,1fr))}.lifecycle-diagram i{display:none}.exchange-heading{font-size:1.35rem;gap:12px}.exchange-mark{width:44px;height:44px}.strategy-project .project-visual{min-height:400px}}
-@media(max-width:600px){.expertise-grid{grid-template-columns:1fr}.employment-badge{display:table;margin:8px 0 2px}.strategy-project .project-visual{min-height:350px;padding:25px 24px}.exchange-heading{font-size:1.5rem}.lifecycle-diagram{grid-template-columns:repeat(3,minmax(0,1fr))}.lifecycle-diagram>span{padding:12px 8px;font-size:.75rem}.strategy-project .visual-topline{font-size:.75rem}.governance-heading{font-size:1.6rem}.experience-group-label{margin-top:23px}}
-.lifecycle-diagram i{display:inline}
-@media(max-width:360px){.lifecycle-diagram{grid-template-columns:repeat(2,minmax(0,1fr))}.exchange-heading{font-size:1.25rem}}
+@media(max-width:800px){.strategy-project .project-visual{padding:24px 20px}.strategy-themes{grid-template-columns:repeat(2,minmax(0,1fr))}.strategy-themes i{display:none}.ai-strategy-heading{font-size:1.35rem;gap:12px}.ai-strategy-mark{width:44px;height:44px}.strategy-project .project-visual{min-height:400px}}
+@media(max-width:600px){.expertise-grid{grid-template-columns:1fr}.employment-badge{display:table;margin:8px 0 2px}.strategy-project .project-visual{min-height:350px;padding:25px 24px}.ai-strategy-heading{font-size:1.5rem}.strategy-themes{grid-template-columns:repeat(3,minmax(0,1fr))}.strategy-themes>span{padding:12px 8px;font-size:.75rem}.strategy-project .visual-topline{font-size:.75rem}.governance-heading{font-size:1.6rem}.experience-group-label{margin-top:23px}}
+.strategy-themes i{display:inline}
+@media(max-width:360px){.strategy-themes{grid-template-columns:repeat(2,minmax(0,1fr))}.ai-strategy-heading{font-size:1.25rem}}
 
 /* Keep the shorter sections spacious without overpowering the work. */
 .section-heading h2{font-size:clamp(2rem,3.5vw,3rem)}

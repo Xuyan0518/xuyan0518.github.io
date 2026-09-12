@@ -20,7 +20,7 @@ for (const [, url] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     files++;
   }
 }
-const projectIds = ['ai-exchange', 'governance', 'edunet', 'safety', 'deepfake', 'soulsound'];
+const projectIds = ['ai-strategy', 'governance', 'edunet', 'safety', 'deepfake', 'soulsound'];
 for (const project of projectIds) {
   if (!html.includes(`data-project="${project}"`)) throw new Error(`Missing project: ${project}`);
 }
