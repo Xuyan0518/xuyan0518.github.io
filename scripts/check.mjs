@@ -16,7 +16,7 @@ for (const [, url] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
   if (url.startsWith('#')) {
     if (!seen.has(url.slice(1))) throw new Error(`Broken section link: ${url}`);
   } else {
-    await access(resolve(root, url));
+    await access(resolve(root, url.split(/[?#]/, 1)[0]));
     files++;
   }
 }
