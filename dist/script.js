@@ -81,13 +81,13 @@ const projects = {
   'ai-exchange': {
     category: 'FULL-TIME ROLE · SINGTEL · GROUP LEVEL · STRATEGIC PLANNING',
     title: 'Singtel AI Exchange',
-    lead: 'The central question was how teams could assess and reuse AI assets developed elsewhere in the Group.',
-    content: '<h3>What I worked on</h3><ul><li>Helped define the information needed to assess an asset: ownership, permitted use, support, evidence of effectiveness, and installation requirements.</li><li>Developed an operating model that combined Group-level discovery and standards with local accountability.</li><li>Structured the proposed lifecycle from publication and assurance through adoption, observation, and improvement.</li><li>Helped shape the asset taxonomy and governance approach for agents, prompts, skills, tools, and starter kits.</li></ul><h3>Measurement</h3><p>Considered how adoption and reuse could be measured to assess the value of AI investments.</p>'
+    lead: 'A reusable AI marketplace initiative across Singtel Group, its operating companies and Regional Associates, intended to make trusted AI assets easier to discover, assess and adopt.',
+    content: '<h3>Strategic purpose</h3><p>Address duplicated builds, limited visibility of existing AI capabilities, and unclear ownership through a governed approach to reuse.</p><h3>What I worked on</h3><ul><li>Helped frame the business problem and value proposition around reuse, trust and return on AI investment.</li><li>Developed an operating model that combined Group-level discovery and standards with local accountability, controls and deployment requirements.</li><li>Helped define the information needed to assess an asset: ownership, permitted use, support, evidence of effectiveness, and installation requirements.</li><li>Structured the proposed lifecycle from publication and assurance through adoption, observation, and improvement.</li><li>Helped shape the asset taxonomy and governance approach for agents, prompts, skills, tools, and starter kits.</li></ul><h3>Measurement</h3><p>Considered how adoption and reuse could be measured to assess the value of AI investments.</p>'
   },
   governance: {
     category: 'FULL-TIME ROLE · SINGTEL · GROUP LEVEL · ORGANISATIONAL ENABLEMENT',
     title: 'SRB / ARB Governance',
-    lead: 'Solution Review Board and Architecture Review Board processes can be difficult to navigate without a clear explanation of their purpose and expectations.',
+    lead: 'An organisational enablement initiative focused on how teams engage with the Solution Review Board (SRB) and Architecture Review Board (ARB).',
     content: '<h3>What I worked on</h3><ul><li>Developed the content strategy for a proposed internal brownbag session, covering early engagement, submissions, and review considerations.</li><li>Turned architecture-governance concepts into practical frameworks and visual explanations for colleagues with different technical backgrounds.</li><li>Worked with senior stakeholders and architecture leaders to check the content and refine what the audience needed to know.</li></ul><h3>The aim</h3><p>Help teams identify risks earlier and understand how review processes support delivery aligned with enterprise standards.</p>'
   },
   edunet: {
