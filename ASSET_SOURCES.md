@@ -10,6 +10,7 @@ Company artwork is included to identify the organisations in Xuyan's education a
 | `dist/assets/logos/st-engineering.png` | [ST Engineering homepage logo](https://www.stengg.com/images/st-logo-color-footer.png) |
 | `dist/assets/projects/edunet-logo.png` | [edunet repository](https://github.com/Xuyan0518/edunet/blob/main/public/edunet-logo.png) |
 | `dist/assets/projects/soulsound-input.png` | [Original SoulSound preference interface](https://github.com/Xuyan0518/ai_challenge_2024/blob/main/src/docs/input.png) |
+| `dist/assets/portrait-edited.png` | User-supplied coastal portrait, cropped and lightly adjusted with the built-in image editor. Original retained separately. |
 
 The edunet workflow and Deepfake Detective media icons are explanatory HTML/CSS/SVG illustrations, not app screenshots. SoulSound uses the original repository screenshot.
 

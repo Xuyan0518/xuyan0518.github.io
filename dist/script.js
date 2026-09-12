@@ -1,5 +1,3 @@
-/* Photo: add your image as assets/portrait.jpg, or change this path. */
-const PROFILE_PHOTO = 'assets/portrait.jpg';
 const EMAIL = 'zhouxuyan6@gmail.com';
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
@@ -78,18 +76,6 @@ window.addEventListener('scroll', () => { if (!scrollFrame) scrollFrame = reques
 window.addEventListener('resize', updateScroll);
 updateScroll();
 document.getElementById('year').textContent = String(new Date().getFullYear());
-
-// The placeholder is the intentional default. Enable the photo after adding it:
-// set PHOTO_ENABLED to true. Avoid a missing-file request until the image exists.
-const PHOTO_ENABLED = false;
-if (PHOTO_ENABLED) {
-  const portrait = document.getElementById('portrait-image');
-  portrait.addEventListener('load', () => {
-    portrait.hidden = false;
-    document.getElementById('portrait-placeholder').hidden = true;
-  });
-  portrait.src = PROFILE_PHOTO;
-}
 
 const projects = {
   'ai-exchange': {

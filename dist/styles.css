@@ -55,6 +55,13 @@
 .contact-card h2{font-size:clamp(2.2rem,4vw,3.5rem)}
 @media(max-width:800px){.project-research .rag-visual{border-right:0;border-bottom:1px solid var(--line)}}
 
+/* Preserve the portrait's full crop and keep its caption below the photo. */
+.portrait-wrap{max-width:350px}
+.portrait-card.has-photo{height:auto}
+.portrait-card.has-photo .portrait-image{width:100%;height:auto;object-fit:contain;object-position:center}
+.portrait-card.has-photo .portrait-bottom{position:static;padding:19px 24px;background:#0e151f}
+@media(max-width:600px){.portrait-wrap{max-width:360px}}
+
 /* Original company artwork stays in its own neutral space. */
 .company-symbol.company-logo{width:96px;height:60px;border-radius:10px;background:#fff;border-color:#dce2eb;padding:8px;overflow:hidden}
 .company-logo img{width:100%;height:100%;object-fit:contain}
