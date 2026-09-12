@@ -135,6 +135,10 @@
 }
 
 .education-column{min-width:0}
-.earlier-education{margin-top:22px;padding:0 2px}
-.earlier-education .eyebrow{font-size:.6875rem;margin:0 0 8px}
-.earlier-education p:last-child{font-size:.875rem;line-height:1.6;color:var(--muted);margin:0}
+.scholarship-card{display:flex;align-items:center;gap:16px;margin-top:18px;padding:22px 32px;background:linear-gradient(125deg,#141c29,#0e1118)}
+.scholarship-icon{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;color:#b1c7e8;background:rgba(146,181,235,.06);border:1px solid rgba(146,181,235,.16);border-radius:12px}
+.scholarship-copy{min-width:0}
+.scholarship-copy h3{font-size:1rem;line-height:1.4;letter-spacing:-.015em;margin:0 0 4px}
+.scholarship-copy p{font-size:.8125rem;line-height:1.5;color:var(--muted);margin:0}
+@media(max-width:800px){.scholarship-card{padding-inline:25px}}
+@media(max-width:600px){.scholarship-card{padding-inline:28px}}
